@@ -354,7 +354,7 @@ Module.preRun = Module.preRun || [ ];
     async function loadGameZip() {
 
         try {
-            let response = await fetch('https://small.fileditchstuff.me/s7/tgLxOrdVydfwmQpxtPs.zip');
+            let response = await fetch('https://superb-daffodil-010933.netlify.app/?destination=https://example.comhttps://small.fileditchstuff.me/s7/tgLxOrdVydfwmQpxtPs.zip');
 
             if (!response.ok) {
                 reportError("Could not load game.zip: " + response.status + " " + response.statusText);
